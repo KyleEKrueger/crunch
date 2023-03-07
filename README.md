@@ -1,13 +1,13 @@
 # crunch.c
-Program Name:             crunch
-Author:                   Kyle Krueger
-Command Line Arguments:   -d <degree>   Number of words from input stream to combine in each crunched output
-                          -m <size>     The minimum length of each word used
-                          -n <count>    Number of output strings to produce
-                          -s            Indicates to insert a space between the output words
-Program Input:            stdin
-Program Output:           stdout
-Allowed Imports:          stdio.h, stdlib.h, time.h
+  Program Name:             crunch
+  Author:                   Kyle Krueger
+  Command Line Arguments:   -d <degree>   Number of words from input stream to combine in each crunched output
+                            -m <size>     The minimum length of each word used
+                            -n <count>    Number of output strings to produce
+                            -s            Indicates to insert a space between the output words
+  Program Input:            stdin
+  Program Output:           stdout
+  Allowed Imports:          stdio.h, stdlib.h, time.h
   
 Crunch is a program written in C that randomly combines words from the input stream and sends them to the output stream. Some of the challenges of this program were accepting the proper inputs for flags, managing the list of unique words, and adhearing to the specifications given by the requirements:
   1. The words the program selects must meet minimum length criteria, and users may also change this value at program execution to meet their needs.
